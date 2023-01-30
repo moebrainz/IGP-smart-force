@@ -366,6 +366,11 @@ section.home {
   align-self: center;
 }
 
+.about__container {
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
 .about__bold {
   font-weight: 800;
   font-size: var(--normal-font-size);
