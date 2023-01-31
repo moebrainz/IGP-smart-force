@@ -165,8 +165,8 @@ img {
   align-items: center;
 }
 .logo__icon {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 .nav__logo,
 .nav__toggle {
@@ -255,9 +255,9 @@ img {
 }
 
 section.home {
-  background-image: url(../img/hero2.png);
+  background-image: url(../img/hero_final.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1400px;
 }
 
 .home__container {
@@ -311,6 +311,7 @@ section.home {
 
 .home__description {
   margin-bottom: var(--mb-2);
+  color: #fff;
 }
 
 .home__scroll {
@@ -637,7 +638,7 @@ section.home {
 /*==================== CONTACT ME ====================*/
 
 section.contact {
-  background-image: url(../img/contact_bg.png);
+  background-image: url(../img/contact3.png);
   background-repeat: no-repeat;
   background-size: inherit;
 }
@@ -666,6 +667,7 @@ section.contact {
 .contact__information {
   display: flex;
   margin-bottom: var(--mb-2);
+  margin-left: 6rem;
 }
 
 .contact__content {
@@ -733,6 +735,13 @@ section.contact {
   color: white;
   text-align: center;
   margin-top: var(--mb-3);
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
 }
 /*========== SCROLL UP ==========*/
 
@@ -862,7 +871,8 @@ section.contact {
   }
 
   .footer__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 
   .footer__links {
@@ -872,6 +882,12 @@ section.contact {
 
   .footer__bg {
     padding: 3rem 0 3.5rem;
+  }
+
+  .contact__container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: inherit;
+    margin-top: 8rem;
   }
 }
 
