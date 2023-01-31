@@ -255,7 +255,7 @@ img {
 }
 
 section.home {
-  background-image: url(../img/hero_final.png);
+  background-image: url(../img/hero__1.png);
   background-repeat: no-repeat;
   background-size: 1400px;
 }
@@ -354,7 +354,8 @@ section.home {
 }
 
 .button:hover {
-  background-color: var(--first-color-alt);
+  background-color: #05014a;
+  color: white;
 }
 
 .button__icon {
@@ -391,7 +392,7 @@ section.home {
 }
 
 .about__icon {
-  color: #0a54c2;
+  color: #05014a;
   font-size: var(--big-font-size);
 }
 
@@ -702,13 +703,14 @@ section.contact {
 }
 
 .footer__bg {
-  background-color: #0a54c2;
+  background-color: #05014a;
   padding: 2rem 0 1.2rem;
 }
 
 .footer__title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
+  color: white;
 }
 
 .footer__subtitle {
@@ -727,7 +729,7 @@ section.contact {
 }
 
 .footer__link:hover {
-  color: var(--first-color-lighter);
+  color: #ccc;
 }
 
 .footer__copy {
