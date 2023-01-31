@@ -806,6 +806,10 @@ section.contact {
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   } */
+
+  .footer {
+    padding: 1rem 0;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
